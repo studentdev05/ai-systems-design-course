@@ -1,0 +1,41 @@
+schema_version: "1.0"
+proposal_id: lab01-learning-knowledge-boundary
+status: approved
+personal_domain: Software engineering as a non-sensitive academic and professional area for a later bounded
+  extension.
+intended_learning_outcome: Demonstrate the ability to operate a governed learning knowledge workflow in
+  which a versioned source is registered, a bounded candidate is validated and semantically reviewed,
+  and only an explicitly approved proposal can produce the accepted system boundary.
+non_goals:
+  - Do not implement structured concept records, graph indexes, vector indexes, or the complete knowledge
+    processing capability during Laboratory 01.
+  - Do not allow the AI assistant to approve its own proposal, directly mutate accepted canonical knowledge,
+    ingest sensitive personal data, or support high-consequence decisions.
+governance:
+  ai_role: Propose a bounded system description and expose uncertainty without accepting changes.
+  deterministic_role: Validate the candidate, bind the decision to its digest, and apply only approved
+    content.
+  human_role: Review meaning and explicitly approve or reject the proposal before application.
+usefulness_condition: The workflow is useful when the accepted Laboratory 01 boundary can be traced to
+  the supplied contracts, the exact proposal content, successful deterministic validation, an explicit
+  human semantic review and decision, and a reproducible apply result.
+material_risk: A structurally valid but semantically incorrect or weakly grounded proposal could be approved
+  by the student and then correctly applied, preserving an incorrect boundary with apparently valid audit
+  evidence.
+non_ai_baseline: Read the supplied system and vault contracts manually, edit the candidate in a text editor,
+  run the same deterministic validate, decide, and apply workflow, and preserve the same evidence without
+  AI assistance.
+uncertainty: It has not yet been established whether later work in the selected personal domain will provide
+  enough representative evidence to show that AI assistance is materially better than the simpler manual
+  baseline.
+required_evidence:
+  - Green workstation capabilities, passing public tests, successful proposal validation, and preserved
+    evidence that apply is refused before a matching decision exists.
+  - A completed nine-question human semantic review grounded in the supplied system brief, requirements
+    baseline, and vault structure contract before approval.
+accepted:
+  source_proposal: boundary-proposal.yaml
+  proposal_sha256: cbb0e7e8d32887e05974712b8370f213ab462b85579091f938aae4705480d2c1
+  approved_by: studentdev05
+  approved_at: "2026-09-20T15:25:45.269616+00:00"
+  applied_at: "2026-09-20T15:26:06.112909+00:00"

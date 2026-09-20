@@ -1,0 +1,15 @@
+Linux workstation capability verification
+Date: 2026-09-20T18:39:05+03:00
+User: kali
+
+First verification
+git version 2.53.0
+gh version 2.101.0 (2026-09-15)
+uv 0.12.17 (x86_64-unknown-linux-gnu)
+/usr/bin/obsidian
+obsidian 1.13.7
+
+Second verification
+git version 2.53.0
+gh version 2.101.0 (2026-09-15)
+uv 0.12.17 (x86_64-unknown-linux-gnu)

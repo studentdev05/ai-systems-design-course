@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "host": {
+    "system": "linux",
+    "release": "7.1.5+kali-amd64",
+    "build": null
+  },
+  "preflight": "green",
+  "capabilities": {
+    "git": {
+      "status": "available",
+      "detail": "git version 2.53.0"
+    },
+    "github_cli": {
+      "status": "available",
+      "detail": "gh version 2.101.0 (2026-09-15)"
+    },
+    "uv": {
+      "status": "available",
+      "detail": "uv 0.12.17 (x86_64-unknown-linux-gnu)"
+    },
+    "agy": {
+      "status": "unavailable",
+      "detail": "command unavailable"
+    },
+    "obsidian": {
+      "status": "available",
+      "detail": "application detected"
+    }
+  }
+}
